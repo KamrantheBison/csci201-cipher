@@ -32,4 +32,8 @@ int main(int argc, char* argv[]) {
         if ((i + 1) % 5 == 0 && (i + 1) != encoded.length()) {
             cout << " ";
         }
-
+	// new line every 50 letters
+        if ((i + 1) % 50 == 0) {
+            cout << endl;
+        }
+    }
