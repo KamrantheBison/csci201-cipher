@@ -23,3 +23,7 @@ int main(int argc, char* argv[]) {
             }
         }
     }
+// print in blocks of 5, 10 blocks per line
+    for (int i = 0; i < encoded.length(); i++) {
+
+        cout << encoded[i];
