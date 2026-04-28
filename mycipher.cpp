@@ -27,3 +27,9 @@ int main(int argc, char* argv[]) {
     for (int i = 0; i < encoded.length(); i++) {
 
         cout << encoded[i];
+
+	// space every 5 letters (but not at end)
+        if ((i + 1) % 5 == 0 && (i + 1) != encoded.length()) {
+            cout << " ";
+        }
+
