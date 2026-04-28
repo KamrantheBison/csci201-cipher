@@ -37,3 +37,10 @@ int main(int argc, char* argv[]) {
             cout << endl;
         }
     }
+// final newline if needed
+    if (encoded.length() % 50 != 0) {
+        cout << endl;
+    }
+
+    return 0;
+}
